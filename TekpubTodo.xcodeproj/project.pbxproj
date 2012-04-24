@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520CA761154605760046BE17 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 520CA760154605760046BE17 /* Todo.m */; };
+		527A8B541545F64200E6831B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527A8B531545F64200E6831B /* UIKit.framework */; };
+		527A8B561545F64200E6831B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527A8B551545F64200E6831B /* Foundation.framework */; };
+		527A8B581545F64200E6831B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527A8B571545F64200E6831B /* CoreGraphics.framework */; };
+		527A8B5E1545F64200E6831B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 527A8B5C1545F64200E6831B /* InfoPlist.strings */; };
+		527A8B601545F64200E6831B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A8B5F1545F64200E6831B /* main.m */; };
+		527A8B641545F64200E6831B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A8B631545F64200E6831B /* AppDelegate.m */; };
+		527A8B671545F64200E6831B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 527A8B661545F64200E6831B /* ViewController.m */; };
+		527A8B6A1545F64200E6831B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527A8B681545F64200E6831B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520CA75F154605760046BE17 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		520CA760154605760046BE17 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		527A8B4F1545F64200E6831B /* TekpubTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TekpubTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527A8B531545F64200E6831B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		527A8B551545F64200E6831B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		527A8B571545F64200E6831B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		527A8B5B1545F64200E6831B /* TekpubTodo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TekpubTodo-Info.plist"; sourceTree = "<group>"; };
+		527A8B5D1545F64200E6831B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		527A8B5F1545F64200E6831B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		527A8B611545F64200E6831B /* TekpubTodo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TekpubTodo-Prefix.pch"; sourceTree = "<group>"; };
+		527A8B621545F64200E6831B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		527A8B631545F64200E6831B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		527A8B651545F64200E6831B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		527A8B661545F64200E6831B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		527A8B691545F64200E6831B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527A8B4C1545F64200E6831B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527A8B541545F64200E6831B /* UIKit.framework in Frameworks */,
+				527A8B561545F64200E6831B /* Foundation.framework in Frameworks */,
+				527A8B581545F64200E6831B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527A8B441545F64200E6831B = {
+			isa = PBXGroup;
+			children = (
+				527A8B591545F64200E6831B /* TekpubTodo */,
+				527A8B521545F64200E6831B /* Frameworks */,
+				527A8B501545F64200E6831B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527A8B501545F64200E6831B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527A8B4F1545F64200E6831B /* TekpubTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527A8B521545F64200E6831B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527A8B531545F64200E6831B /* UIKit.framework */,
+				527A8B551545F64200E6831B /* Foundation.framework */,
+				527A8B571545F64200E6831B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		527A8B591545F64200E6831B /* TekpubTodo */ = {
+			isa = PBXGroup;
+			children = (
+				527A8B621545F64200E6831B /* AppDelegate.h */,
+				527A8B631545F64200E6831B /* AppDelegate.m */,
+				527A8B651545F64200E6831B /* ViewController.h */,
+				527A8B661545F64200E6831B /* ViewController.m */,
+				527A8B681545F64200E6831B /* ViewController.xib */,
+				527A8B5A1545F64200E6831B /* Supporting Files */,
+				520CA75F154605760046BE17 /* Todo.h */,
+				520CA760154605760046BE17 /* Todo.m */,
+			);
+			path = TekpubTodo;
+			sourceTree = "<group>";
+		};
+		527A8B5A1545F64200E6831B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				527A8B5B1545F64200E6831B /* TekpubTodo-Info.plist */,
+				527A8B5C1545F64200E6831B /* InfoPlist.strings */,
+				527A8B5F1545F64200E6831B /* main.m */,
+				527A8B611545F64200E6831B /* TekpubTodo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527A8B4E1545F64200E6831B /* TekpubTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527A8B6D1545F64200E6831B /* Build configuration list for PBXNativeTarget "TekpubTodo" */;
+			buildPhases = (
+				527A8B4B1545F64200E6831B /* Sources */,
+				527A8B4C1545F64200E6831B /* Frameworks */,
+				527A8B4D1545F64200E6831B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TekpubTodo;
+			productName = TekpubTodo;
+			productReference = 527A8B4F1545F64200E6831B /* TekpubTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527A8B461545F64200E6831B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 527A8B491545F64200E6831B /* Build configuration list for PBXProject "TekpubTodo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 527A8B441545F64200E6831B;
+			productRefGroup = 527A8B501545F64200E6831B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527A8B4E1545F64200E6831B /* TekpubTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527A8B4D1545F64200E6831B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527A8B5E1545F64200E6831B /* InfoPlist.strings in Resources */,
+				527A8B6A1545F64200E6831B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527A8B4B1545F64200E6831B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527A8B601545F64200E6831B /* main.m in Sources */,
+				527A8B641545F64200E6831B /* AppDelegate.m in Sources */,
+				527A8B671545F64200E6831B /* ViewController.m in Sources */,
+				520CA761154605760046BE17 /* Todo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		527A8B5C1545F64200E6831B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527A8B5D1545F64200E6831B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		527A8B681545F64200E6831B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527A8B691545F64200E6831B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527A8B6B1545F64200E6831B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		527A8B6C1545F64200E6831B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527A8B6E1545F64200E6831B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekpubTodo/TekpubTodo-Prefix.pch";
+				INFOPLIST_FILE = "TekpubTodo/TekpubTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		527A8B6F1545F64200E6831B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TekpubTodo/TekpubTodo-Prefix.pch";
+				INFOPLIST_FILE = "TekpubTodo/TekpubTodo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527A8B491545F64200E6831B /* Build configuration list for PBXProject "TekpubTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527A8B6B1545F64200E6831B /* Debug */,
+				527A8B6C1545F64200E6831B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527A8B6D1545F64200E6831B /* Build configuration list for PBXNativeTarget "TekpubTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527A8B6E1545F64200E6831B /* Debug */,
+				527A8B6F1545F64200E6831B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527A8B461545F64200E6831B /* Project object */;
+}
